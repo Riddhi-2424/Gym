@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Gym center</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0 px;
+        padding: 0 px;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        scroll-behavior:auto;
+        background-color: rgb(14, 13, 13);
+        
+    
+        
+    }
+    .left{
+        display: inline-block;
+        
+        position: absolute;
+        left: 32px;
+        top: 22px;
+    }
+    
+    .left img{
+        width: 72px;
+        filter: invert(100%);
+    }
+    
+    .mid{
+        display: block;
+        width: 43%;
+        margin: 20px auto;
+        
+    }
+    
+    .right{
+        position: absolute;
+        right: 32px;
+        top: 27px;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+    .btn{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 12px;
+        color: whitesmoke;
+        background: black;
+        padding: 9px 18px;
+        border: 1px solid white;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    
+    .navbar{
+        display: inline-block;
+    
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 32px 25px;
+    }
+    
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .container{
+        background: url('img/4.jpg') no-repeat center;
+        display: inline-block;
+        position: absolute;
+        color: whitesmoke;
+        padding: 75px 66px;
+        background-image: cover;
+        height: 300px;
+        top: 25%;
+        left: 20%;
+
+    }
+    
+    .container button{
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        position: absolute;
+         top: 85%;
+         left: 40%;
+         border-radius: 10px;
+         border: 1px solid white;
+         background: black;
+         color: white;
+         text-decoration: none;
+         cursor: pointer;
+         padding: 15px 24px;
+    }
+    .container button:hover{
+        opacity: 0.7;
+    }
+    .container marquee{
+       
+        font-size: 45px;
+        
+    }
+    .about{
+        margin-top: 43%;
+        margin-left: 2%;
+        margin-right: 2%;
+       
+        background-color:rgb(151, 144, 144);
+        padding: 60px 0px;
+        background-attachment: fixed;
+        color: whitesmoke;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('img/2.jpg');
+      
+        display:ruby;
+        
+    }
+    .about h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        margin-left: 5%;
+        
+        
+    }
+    .about h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        margin-left: 5%;
+
+    }
+    .about button{
+        display: block;
+        padding: 16px 36px;
+        margin: 10px auto;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+        margin-left: 25%;
+
+        
+    }
+
+    .about button:hover{
+        opacity: 0.7;
+    }
+    .gallery {
+        color: black;
+        background-color: rgb(0, 0, 0);
+        font-size: 24px;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-attachment: fixed;
+        
+     }
+    
+    .im{
+        display: -webkit-box;
+        background-attachment: fixed;
+        background-color: black;
+    }
+    
+
+    .gallery button{
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        position: absolute;
+         top: 200%;
+         left: 43%;
+         border-radius: 10px;
+         border: 1px solid white;
+         background: black;
+         color: white;
+         text-decoration: none;
+         cursor: pointer;
+         padding: 15px 20px;
+         
+    }
+
+    .gallery button:hover{
+        opacity: 0.7;
+    }
+    .gallery p{
+        padding-top:5px;
+        text-align: center;
+        color: thistle;
+    }
+    
+    
+    .contact{
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+       
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       background-color: black;
+        background-attachment: fixed;
+        display: ruby;
+        color:rgb(143, 132, 132)
+    }
+    .contact h2{
+        margin-top: 8px;
+    }
+    .contact h4{
+        
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 2px;
+        
+    }
+
+   .contact a{
+       margin-bottom: 5%;
+   }
+    
+</style>
+<body>
+    <header class="header">
+    
+        <div class="left">
+           <img src="img/logo.png" alt="">
+        </div>
+
+        <div class="mid">
+           <ul class="navbar">
+               <li><a href="index.html" class="active">Home</a></li>
+               <li><a href="about.html">About-Us</a></li>
+               <li><a href="gallery.html">Gallery</a></li>
+               <li><a href="contact.html">Contact-Us</a></li>
+           </ul>
+        </div>
+
+        <div class="right">
+            <form action="member.html">
+             <button class="btn" type="submit">Membership</a></button>
+            </form>
+            
+        </div>
+
+        
+    </header>
+    <div class="container">
+        <marquee behavior="scroll" direction="left">Fitness: If you work, It will work.</marquee>
+
+         <h1>Never make a gym second choice, it is a priority.</h1>
+         <form action="member.html">
+            <button type="submit">Get Started</a></button>
+         </form>
+         
+   </div>
+
+   
+
+   <div class="about">
+    <h3>Be Strong</h4>
+    <h2>Training Hard</h2>
+    <form action="about.html">
+        <button type="submit">Get Info</button>
+    </form>
+   
+   </div>
+
+   <div class="gallery">
+        <p>
+            Explore Gallery
+        </p>
+        <div class="im">
+            
+            <li><img src='img/11.jpg'alt="" width='250px' height="400px"></li>
+            <li><img src="img/10.jpg" alt="" width='250px' height="400px"></li>
+            <li><img src="img/9.jpg" alt="" width='550px' height="400px"></li>
+        </div>
+
+        
+                <form action="gallery.html">
+                    <button type="submit">Know More</button>
+                </form>
+        
+           
+                
+    </div>
+
+    <div class="contact">
+        <h2> Contact Details</h2>
+        <p><h4>Address:</h4>A101/102, Progressive Apartment, Datt Mandir Rd,
+        </br>opposite Kalyani Hospital,</br> Virar West, Maharashtra 401303</p>
+       <p><h4>Contact No:</h4> <ul>456-779-245</ul>
+           <ul>678-234-987</ul>
+       <h4>Mail me:</h4><a href="https://accounts.google.com/servicelogin/signinchooser?hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin">fitness123@gmail.com</a>
+       </p>
+       <h4>Follow Us:</h4>
+       <a href="https://www.facebook.com/">Facebook</a>
+    </div>
+
+    
+        
+
+
+</body>
+</html>

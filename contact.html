@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Contact</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    
+    
+<style>
+
+    body{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/contact.jpg');
+        background-repeat: no-repeat;
+        background-color: black;
+        object-fit: cover;
+        
+    }
+    .left{
+        display: inline-block;
+        
+        position: absolute;
+        left: 32px;
+        top: 22px;
+    }
+    
+    .left img{
+        width: 72px;
+        filter: invert(100%);
+    }
+    .mid{
+        display: block;
+        width: 43%;
+        margin: 20px auto; 
+        
+    }
+    .right{
+        position: absolute;
+        right: 32px;
+        top: 27px;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .btn{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 12px;
+        color: whitesmoke;
+        background: black;
+        padding: 9px 18px;
+        border: 1px solid white;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .navbar{
+        display: inline-block;
+        
+    
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 32px 25px;
+    }
+    
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .text{
+       color: white;
+       padding: 5%  40%;
+       text-align: left;
+    }
+
+    .map{
+        position: absolute;
+            display: inline-block;
+            text-align:center;
+            left:65%;
+            top: 22%;
+            color: white;
+    
+      }
+
+      .fb{
+        display: inline-block;
+        
+        position: absolute;
+        left: 40%;
+        top: 85%;
+    }
+    
+    .fb img{
+        width: 35px;
+        
+    }
+    .fb img:hover{
+                cursor: pointer;
+                
+    }
+    .insta{
+        display: inline-block;
+        
+        position: absolute;
+        left: 45%;
+        top: 85%;
+    }
+     
+    .insta img{
+        width: 35px;
+        
+    }
+    .insta img:hover{
+        cursor: pointer;
+    }
+</style>
+<body>
+    <header class="hcontact">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+         </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About-Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact-Us</a></li>
+
+            </ul>
+        </div>
+        <div class="text">
+            <p><h4>Address:</h4>A101/102, Progressive Apartment, Datt Mandir Rd,
+                 opposite Kalyani Hospital, Virar West, Maharashtra 401303</p>
+            <p><h4>Phone:</h4> <ul>456-779-245</ul>
+                <ul>678-234-987</ul>
+                <h4>Mail me:</h4><a href="https://accounts.google.com/servicelogin/signinchooser?hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin">fitness123@gmail.com</a>
+            </p>
+            <h4>Follow Us:</h4>
+            
+        </div>
+
+        <div class="right">
+            <form action="member.html">
+             <button class="btn" type="submit">Membership</a></button>
+            </form>
+            </div>
+        
+    </header>
+            <div class="map">
+                <h4>Locations</h4>
+                <iframe width="400" height="300"  src="https://maps.google.com/maps?q=Gass Kandok &t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></body>
+            </div>
+    
+    <footer>
+            <div class="fb">
+               <a href="https://www.facebook.com/">
+                <img src="img/fb.jpg" alt="">
+               </a>
+
+            </div>
+
+            <div class="insta">
+                <a href="https://www.instagram.com/accounts/login/?hl=en">
+                    <img src="img/insta.jpg" alt="">
+                   </a>
+            </div>
+    </footer>
+    
+</body>
+
+
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Gallery</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+       
+    
+    }
+    .left{
+        display: inline-block;
+        
+        position: absolute;
+        left: 32px;
+        top: 22px;
+    }
+    
+    .left img{
+        width: 72px;
+        filter: invert(100%);
+    }
+    .mid{
+        display: block;
+        width: 43%;
+        margin: 20px auto; 
+        
+    }
+    .navbar{
+        display: inline-block;
+        
+    
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 32px 25px;
+    }
+    
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+
+   .about{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+         
+   }
+
+   .about p{
+        display: inline-block;
+            text-align: right;
+   }
+
+   
+   .right{
+        position: absolute;
+        right: 32px;
+        top: 27px;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+    .btn{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 12px;
+        color: whitesmoke;
+        background: black;
+        padding: 9px 18px;
+        border: 1px solid white;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+  
+  .img{
+      width: 45px;
+      display: ruby;
+      top: 45%;
+      margin-left: 5%;
+  }
+
+  .txt{
+    position: absolute;
+        display: inline-block;
+        text-align:center;
+        left:45%;
+        top: 29%;
+
+  }
+  .txt p{
+      text-align: center;
+      margin-right: 3px;
+  }
+  .txt h5{
+      text-decoration: underline;
+      text-decoration-color: grey;
+    
+  }
+  .contact{
+        margin-top: 15%;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding: 88px 45px;
+        margin-bottom: 5px;
+        text-align: center;
+       
+        background-attachment: fixed;
+        display: ruby;
+        color:rgb(226, 221, 221);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('img/7.jpg');
+      
+    }
+
+    .contact p{
+        color:white;
+        text-align: left;
+        margin-left: 5px;
+        margin-top: 0px;
+        
+    }
+    
+    
+    
+   .fb{
+        display: inline-block;
+        
+        position: absolute;
+        left: 15%;
+        top: 195%;
+    }
+    
+    .fb img{
+        width: 35px;
+        
+    }
+    .fb img:hover{
+                cursor: pointer;
+                
+    }
+    .insta{
+        display: inline-block;
+        
+        position: absolute;
+        left: 20%;
+        top: 195%;
+    }
+     
+    .insta img{
+        width: 35px;
+        
+    }
+    .insta img:hover{
+        cursor: pointer;
+    }
+
+    .gmail{
+
+        display: inline-block;
+        
+        position: absolute;
+        left: 25%;
+        top: 195%;
+    }
+    
+    .gmail img{
+        width: 35px;
+        
+    }
+    .gmail img:hover{
+        cursor: pointer;
+    }
+
+    .no{
+        color: white;
+        
+    }
+    .no p{
+            position: absolute;
+            left:45%;
+            top:190%;
+    }
+
+    
+    </style>
+<body>
+    <header class="hgallery">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+         </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About-Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact-Us</a></li>
+
+            </ul>
+                
+        </div>
+
+        <div class="right">
+            <form action="member.html">
+             <button class="btn" type="submit">Membership</a></button>
+            </form>
+            
+        </div>
+    </header>
+    
+        <div class="about">
+            
+            <p>About Our Gym</p><br>
+            <marquee behavior="scroll" direction="left">SAFE BODY BUILDING PROPER SOLUTIONS THAT SAVES OUR VALUABLE TIME!</marquee>
+
+            <div class="img">
+                <img src="img/6.jpg" alt="">
+                <br>
+                <br>
+                <br>
+                <br>
+                <img src="img/14.jpg" alt="" width= "525px">
+               
+            </div>
+            
+            <div class="txt">
+                <h5>Fitness Training</h5>
+                    <p>General fitness training works towards broad goals of overall health and well-being,
+                         rather than narrow goals of sport competition, larger muscles or concerns over appearance.</p>
+                <h5>Group Fitness</h5>
+                    <p>The term group fitness encompasses any and all form of fitness that’s done in a
+                         group setting, lead by a personal trainer or group instructor. </p>
+                <h5>Cardio Program</h5>
+                    <p>Cardio exercise simply means that you're doing a rhythmic
+                     activity that raises your heart rate into your target heart 
+                     rate zone, the zone where you'll burn the most fat and calories.</p>
+                <h5>Boxer Training</h5>
+                        <p>Boxing training is the training method that boxers use
+                             in order to get more fit for their sport.</p>
+            </div>
+            
+                
+        </div>
+
+        <div class="contact">
+            <p>For More:</p>
+            <div class="fb">
+                <a href="https://www.facebook.com/">
+                 <img src="img/fb.jpg" alt="">
+                </a>
+ 
+             </div>
+ 
+             <div class="insta">
+                 <a href="https://www.instagram.com/accounts/login/?hl=en">
+                     <img src="img/insta.jpg" alt="">
+                    </a>
+             </div>
+
+             <div class="gmail">
+                <a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    <img src="img/gmail.jpg" alt="">
+                   </a>
+            </div>
+
+            <div class="no">
+            <p>Contact No:</p> 
+                <li>456-987-867</li>
+                <li>987-346-876</li>
+                <li>234-345-987</li>
+            </div>
+            
+        </div>
+        
+
+    
+   
+</body>
+</html>

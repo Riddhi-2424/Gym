@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Gallery</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+       
+    
+    }
+    .left{
+        display: inline-block;
+        
+        position: absolute;
+        left: 32px;
+        top: 22px;
+    }
+    
+    .left img{
+        width: 72px;
+        filter: invert(100%);
+    }
+    .mid{
+        display: block;
+        width: 43%;
+        margin: 20px auto; 
+        
+    }
+    .navbar{
+        display: inline-block;
+        
+    
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 32px 25px;
+        
+    }
+    
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .grid{
+        display:-webkit-box;
+        background-attachment: fixed;
+
+    }
+    
+    .grid:hover{
+        cursor: pointer;
+    }
+    .right{
+        position: absolute;
+        right: 32px;
+        top: 27px;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+    .btn{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 12px;
+        color: whitesmoke;
+        background: black;
+        padding: 9px 18px;
+        border: 1px solid white;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    
+</style>
+<body>
+    <header class="hgallery">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+         </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About-Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact-Us</a></li>
+
+            </ul>
+                
+        </div>
+
+
+        <div class="right">
+            <form action="member.html">
+             <button class="btn" type="submit">Membership</a></button>
+            </form>
+            
+        </div>
+    </header>
+    
+    <div class="grid">
+        <h4>Gallery</h4>
+        <li><img src="img/6.jpg" alt=""></li>
+        <li><img src="img/14.jpg" alt=""></li>
+        <li><img src="img/5.jpg" alt=""></li>
+        <li><img src="img/10.jpg" alt=""></li>
+        <li><img src="img/8.jpg" alt=""></li>
+        <li><img src="img/9.jpg" alt=""></li>
+
+</div>
+
+</body>
+</html>
